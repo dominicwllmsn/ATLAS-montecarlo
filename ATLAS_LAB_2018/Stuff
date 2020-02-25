@@ -1,0 +1,40 @@
+//mET
+//ELECTRONS
+
+lep_pt_WenuB->Add(lep_pt_WenuNoB); lep_pt_WenuB->Add(lep_pt_WenuNoBJets); lep_pt_WenuB->Add(lep_pt_Zee); lep_pt_WenuB->Add(lep_pt_Zmumu); lep_pt_WenuB->Add(lep_pt_Ztautau); lep_pt_WenuB->Add(lep_pt_DYeeM08to15); lep_pt_WenuB->Add(lep_pt_DYeeM15to40); lep_pt_WenuB->Add(lep_pt_DYmumuM08to15); lep_pt_WenuB->Add(lep_pt_DYmumuM15to40); lep_pt_WenuB->Add(lep_pt_WmunuNoB); lep_pt_WenuB->Add(lep_pt_WmunuNoBJets); lep_pt_WenuB->Add(lep_pt_WmunuB); lep_pt_WenuB->Add(lep_pt_WtaunuNoB); lep_pt_WenuB->Add(lep_pt_WtaunuNoBJets); lep_pt_WenuB->Add(lep_pt_WtaunuB); lep_pt_WenuB->Add(lep_pt_WW); lep_pt_WenuB->Add(lep_pt_WZ); lep_pt_WenuB->Add(lep_pt_ZZ);  
+
+lep_pt_Elec_LOW->Add(lep_pt_Zee,-1); lep_pt_Elec_LOW->Add(lep_pt_Zmumu,-1); lep_pt_Elec_LOW->Add(lep_pt_Ztautau,-1); lep_pt_Elec_LOW->Add(lep_pt_DYeeM08to15,-1); lep_pt_Elec_LOW->Add(lep_pt_DYeeM15to40,-1); lep_pt_Elec_LOW->Add(lep_pt_DYmumuM08to15,-1); lep_pt_Elec_LOW->Add(lep_pt_DYmumuM15to40,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WW,-1); lep_pt_Elec_LOW->Add(lep_pt_WZ,-1); lep_pt_Elec_LOW->Add(lep_pt_ZZ,-1); lep_pt->Draw(); lep_pt_WenuB->Draw("SAME"); lep_pt_Elec_LOW->Draw("SAME"); c1->Update();
+
+
+//MUONS
+
+lep_pt_WmunuB->Add(lep_pt_WmunuNoB); lep_pt_WmunuB->Add(lep_pt_WmunuNoBJets); lep_pt_WmunuB->Add(lep_pt_Zee); lep_pt_WmunuB->Add(lep_pt_Zmumu); lep_pt_WmunuB->Add(lep_pt_Ztautau); lep_pt_WmunuB->Add(lep_pt_DYEE1); lep_pt_WmunuB->Add(lep_pt_DYEE2); lep_pt_WmunuB->Add(lep_pt_DYMUMU1); lep_pt_WmunuB->Add(lep_pt_DYMUMU2); lep_pt_WmunuB->Add(lep_pt_WenuNoB); lep_pt_WmunuB->Add(lep_pt_WenuNoBJets); lep_pt_WmunuB->Add(lep_pt_WenuB); lep_pt_WmunuB->Add(lep_pt_WtaunuNoB); lep_pt_WmunuB->Add(lep_pt_WtaunuNoBJets); lep_pt_WmunuB->Add(lep_pt_WtaunuB); lep_pt_WmunuB->Add(lep_pt_WW); lep_pt_WmunuB->Add(lep_pt_WZ); lep_pt_WmunuB->Add(lep_pt_ZZ); lep_pt_WmunuB->Add(lep_pt_WmunuB,0.13);
+
+lep_pt_Elec_LOW->Add(lep_pt_Zee,-1); lep_pt_Elec_LOW->Add(lep_pt_Zmumu,-1); lep_pt_Elec_LOW->Add(lep_pt_Ztautau,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE2,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU2,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WW,-1); lep_pt_Elec_LOW->Add(lep_pt_WZ,-1); lep_pt_Elec_LOW->Add(lep_pt_ZZ,-1); lep_pt_WmunuB->Add(lep_pt_Elec_LOW, 2.83); lep_pt_WmunuB->Draw(); lep_pt->Draw("SAME"); c1->Update();
+
+
+
+
+//mT
+//ELECTRONS
+
+lep_pt_WenuB->Add(lep_pt_WenuNoB); lep_pt_WenuB->Add(lep_pt_WenuNoBJets); lep_pt_WenuB->Add(lep_pt_Zee); lep_pt_WenuB->Add(lep_pt_Zmumu); lep_pt_WenuB->Add(lep_pt_Ztautau); lep_pt_WenuB->Add(lep_pt_DYEE1); lep_pt_WenuB->Add(lep_pt_DYEE2); lep_pt_WenuB->Add(lep_pt_DYMUMU1); lep_pt_WenuB->Add(lep_pt_DYMUMU2); lep_pt_WenuB->Add(lep_pt_WmunuNoB); lep_pt_WenuB->Add(lep_pt_WmunuNoBJets); lep_pt_WenuB->Add(lep_pt_WmunuB); lep_pt_WenuB->Add(lep_pt_WtaunuNoB); lep_pt_WenuB->Add(lep_pt_WtaunuNoBJets); lep_pt_WenuB->Add(lep_pt_WtaunuB); lep_pt_WenuB->Add(lep_pt_WW); lep_pt_WenuB->Add(lep_pt_WZ); lep_pt_WenuB->Add(lep_pt_ZZ); lep_pt_WenuB->Add(lep_pt_WenuB,-0.25); 
+
+lep_pt_Elec_LOW->Add(lep_pt_Zee,-1); lep_pt_Elec_LOW->Add(lep_pt_Zmumu,-1); lep_pt_Elec_LOW->Add(lep_pt_Ztautau,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE2,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU2,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WmunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WW,-1); lep_pt_Elec_LOW->Add(lep_pt_WZ,-1); lep_pt_Elec_LOW->Add(lep_pt_ZZ,-1); lep_pt_WenuB->Add(lep_pt_Elec_LOW,2.3); lep_pt->Draw(); lep_pt_WenuB->Draw("SAME"); c1->Update();
+
+
+//MUONS
+
+lep_pt_WmunuB->Add(lep_pt_WmunuNoB); lep_pt_WmunuB->Add(lep_pt_WmunuNoBJets); lep_pt_WmunuB->Add(lep_pt_Zee); lep_pt_WmunuB->Add(lep_pt_Zmumu); lep_pt_WmunuB->Add(lep_pt_Ztautau); lep_pt_WmunuB->Add(lep_pt_DYEE1); lep_pt_WmunuB->Add(lep_pt_DYEE2); lep_pt_WmunuB->Add(lep_pt_DYMUMU1); lep_pt_WmunuB->Add(lep_pt_DYMUMU2); lep_pt_WmunuB->Add(lep_pt_WenuNoB); lep_pt_WmunuB->Add(lep_pt_WenuNoBJets); lep_pt_WmunuB->Add(lep_pt_WenuB); lep_pt_WmunuB->Add(lep_pt_WtaunuNoB); lep_pt_WmunuB->Add(lep_pt_WtaunuNoBJets); lep_pt_WmunuB->Add(lep_pt_WtaunuB); lep_pt_WmunuB->Add(lep_pt_WW); lep_pt_WmunuB->Add(lep_pt_WZ); lep_pt_WmunuB->Add(lep_pt_ZZ); lep_pt_WmunuB->Add(lep_pt_WmunuB,0.13);
+
+lep_pt_Elec_LOW->Add(lep_pt_Zee,-1); lep_pt_Elec_LOW->Add(lep_pt_Zmumu,-1); lep_pt_Elec_LOW->Add(lep_pt_Ztautau,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYEE2,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU1,-1); lep_pt_Elec_LOW->Add(lep_pt_DYMUMU2,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WenuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoB,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuNoBJets,-1); lep_pt_Elec_LOW->Add(lep_pt_WtaunuB,-1); lep_pt_Elec_LOW->Add(lep_pt_WW,-1); lep_pt_Elec_LOW->Add(lep_pt_WZ,-1); lep_pt_Elec_LOW->Add(lep_pt_ZZ,-1); lep_pt_WmunuB->Add(lep_pt_Elec_LOW, 2.83); lep_pt_WmunuB->Draw(); lep_pt->Draw("SAME"); c1->Update();
+
+
+
+lep_pt->Add(lep_pt_WmunuB,-1); lep_pt->Add(lep_pt_WmunuNoB,-1); lep_pt->Add(lep_pt_WmunuNoBJets,-1); lep_pt->Draw(); c1->Update();
+
+
+lep_pt->Draw(); lep_pt_WmunuB->Add(lep_pt_WmunuNoB); lep_pt_WmunuB->Add(lep_pt_WmunuNoBJets); lep_pt_WmunuB->Add(lep_pt_Elec_LOW); lep_pt_WmunuB->Draw("SAME"); c2->Update();
+
+
+
